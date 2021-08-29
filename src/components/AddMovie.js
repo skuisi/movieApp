@@ -14,7 +14,7 @@ const AddMovie = ({addMovie}) => {
     return (
         <div>
             <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+        ADD A NEW MOVIE
       </Button>
 
       <Modal show={show} onHide={handleClose}>
